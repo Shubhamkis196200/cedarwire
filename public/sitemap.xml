@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://cedarwire.netlify.app/</loc><changefreq>daily</changefreq><priority>1.0</priority></url>
+  <url><loc>https://cedarwire.netlify.app/about</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://cedarwire.netlify.app/contact</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://cedarwire.netlify.app/privacy</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://cedarwire.netlify.app/terms</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://cedarwire.netlify.app/category/wellness</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://cedarwire.netlify.app/category/style</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://cedarwire.netlify.app/category/travel</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://cedarwire.netlify.app/category/food</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://cedarwire.netlify.app/category/relationships</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://cedarwire.netlify.app/category/home</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://cedarwire.netlify.app/category/career</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://cedarwire.netlify.app/article/sustainable-living-trends-2026</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://cedarwire.netlify.app/article/remote-work-culture-evolution</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://cedarwire.netlify.app/article/slow-fashion-movement-2026</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://cedarwire.netlify.app/article/plant-based-dining-revolution-2026</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://cedarwire.netlify.app/article/dating-app-evolution</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://cedarwire.netlify.app/article/minimalist-home-design-guide</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://cedarwire.netlify.app/article/side-hustle-economy-2026</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://cedarwire.netlify.app/article/digital-detox-guide-2026</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://cedarwire.netlify.app/article/capsule-wardrobe-ultimate-guide</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://cedarwire.netlify.app/article/wellness-retreats-worth-it</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://cedarwire.netlify.app/article/conscious-consumerism-guide</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://cedarwire.netlify.app/article/micro-adventures-travel-guide</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://cedarwire.netlify.app/article/sleep-optimization-science</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://cedarwire.netlify.app/article/financial-wellness-millennials</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://cedarwire.netlify.app/article/creative-hobbies-boom</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+</urlset>

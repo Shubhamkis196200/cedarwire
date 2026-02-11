@@ -1,0 +1,67 @@
+export interface ToolDef {
+  slug: string
+  name: string
+  description: string
+  category: string
+  icon: string
+}
+
+export const tools: ToolDef[] = [
+  { slug: 'bmi-calculator', name: 'BMI Calculator', description: 'Calculate your Body Mass Index and health category', category: 'Wellness', icon: '⚖️' },
+  { slug: 'budget-planner', name: 'Budget Planner', description: 'Plan your monthly budget with the 50/30/20 rule', category: 'Finance', icon: '💰' },
+  { slug: 'calorie-counter', name: 'Calorie Counter', description: 'Estimate daily caloric needs based on your profile', category: 'Wellness', icon: '🔥' },
+  { slug: 'sleep-quality-scorer', name: 'Sleep Quality Scorer', description: 'Score your sleep quality and get improvement tips', category: 'Wellness', icon: '😴' },
+  { slug: 'water-intake-calculator', name: 'Water Intake Calculator', description: 'Calculate your daily water needs', category: 'Wellness', icon: '💧' },
+  { slug: 'ideal-weight-calculator', name: 'Ideal Weight Calculator', description: 'Find your ideal weight range', category: 'Wellness', icon: '🎯' },
+  { slug: 'body-fat-calculator', name: 'Body Fat Calculator', description: 'Estimate body fat percentage', category: 'Wellness', icon: '📊' },
+  { slug: 'macro-calculator', name: 'Macro Calculator', description: 'Calculate protein, carbs, and fat targets', category: 'Wellness', icon: '🥗' },
+  { slug: 'heart-rate-zones', name: 'Heart Rate Zones', description: 'Find your training heart rate zones', category: 'Fitness', icon: '❤️' },
+  { slug: 'fitness-goal-tracker', name: 'Fitness Goal Tracker', description: 'Set and track fitness milestones', category: 'Fitness', icon: '🏋️' },
+  { slug: 'running-pace-calculator', name: 'Running Pace Calculator', description: 'Calculate pace, speed, and finish times', category: 'Fitness', icon: '🏃' },
+  { slug: 'pregnancy-due-date', name: 'Pregnancy Due Date', description: 'Estimate your due date', category: 'Wellness', icon: '👶' },
+  { slug: 'age-calculator', name: 'Age Calculator', description: 'Calculate exact age in years, months, days', category: 'Lifestyle', icon: '🎂' },
+  { slug: 'tip-calculator', name: 'Tip Calculator', description: 'Calculate tip and split bills easily', category: 'Finance', icon: '🧾' },
+  { slug: 'mortgage-calculator', name: 'Mortgage Calculator', description: 'Estimate monthly mortgage payments', category: 'Finance', icon: '🏠' },
+  { slug: 'savings-goal-calculator', name: 'Savings Goal Calculator', description: 'Plan how to reach your savings goals', category: 'Finance', icon: '🐷' },
+  { slug: 'compound-interest', name: 'Compound Interest Calculator', description: 'See how your money grows over time', category: 'Finance', icon: '📈' },
+  { slug: 'net-worth-tracker', name: 'Net Worth Tracker', description: 'Track your assets and liabilities', category: 'Finance', icon: '💎' },
+  { slug: 'debt-payoff-calculator', name: 'Debt Payoff Calculator', description: 'Plan your debt-free journey', category: 'Finance', icon: '🎯' },
+  { slug: 'rent-vs-buy', name: 'Rent vs Buy Calculator', description: 'Should you rent or buy a home?', category: 'Finance', icon: '🏡' },
+  { slug: 'outfit-color-matcher', name: 'Outfit Color Matcher', description: 'Find matching outfit color combinations', category: 'Style', icon: '👗' },
+  { slug: 'skincare-routine-builder', name: 'Skincare Routine Builder', description: 'Build a personalized skincare routine', category: 'Style', icon: '✨' },
+  { slug: 'color-season-analyzer', name: 'Color Season Analyzer', description: 'Find your color season for best looks', category: 'Style', icon: '🎨' },
+  { slug: 'wardrobe-capsule-planner', name: 'Wardrobe Capsule Planner', description: 'Plan a minimalist capsule wardrobe', category: 'Style', icon: '👔' },
+  { slug: 'shoe-size-converter', name: 'Shoe Size Converter', description: 'Convert shoe sizes between regions', category: 'Style', icon: '👟' },
+  { slug: 'ring-size-finder', name: 'Ring Size Finder', description: 'Find your ring size from measurements', category: 'Style', icon: '💍' },
+  { slug: 'travel-packing-checklist', name: 'Travel Packing Checklist', description: 'Generate a smart packing list for your trip', category: 'Travel', icon: '🧳' },
+  { slug: 'timezone-converter', name: 'Timezone Converter', description: 'Convert times between timezones', category: 'Travel', icon: '🌍' },
+  { slug: 'currency-converter', name: 'Currency Converter', description: 'Convert between world currencies', category: 'Travel', icon: '💱' },
+  { slug: 'trip-budget-planner', name: 'Trip Budget Planner', description: 'Plan and track travel expenses', category: 'Travel', icon: '✈️' },
+  { slug: 'meal-plan-generator', name: 'Meal Plan Generator', description: 'Generate weekly meal plans based on preferences', category: 'Food', icon: '🍽️' },
+  { slug: 'recipe-scaler', name: 'Recipe Scaler', description: 'Scale recipe ingredients up or down', category: 'Food', icon: '📏' },
+  { slug: 'cooking-unit-converter', name: 'Cooking Unit Converter', description: 'Convert cooking measurements instantly', category: 'Food', icon: '🥄' },
+  { slug: 'caffeine-tracker', name: 'Caffeine Tracker', description: 'Track daily caffeine intake', category: 'Food', icon: '☕' },
+  { slug: 'home-decor-style-quiz', name: 'Home Decor Style Quiz', description: 'Discover your interior design style', category: 'Home', icon: '🏠' },
+  { slug: 'room-color-palette', name: 'Room Color Palette', description: 'Generate room color palettes by mood', category: 'Home', icon: '🎨' },
+  { slug: 'moving-checklist', name: 'Moving Checklist', description: 'Complete moving and relocation checklist', category: 'Home', icon: '📦' },
+  { slug: 'plant-care-guide', name: 'Plant Care Guide', description: 'Get care instructions for houseplants', category: 'Home', icon: '🌿' },
+  { slug: 'energy-cost-calculator', name: 'Energy Cost Calculator', description: 'Estimate home energy costs', category: 'Home', icon: '⚡' },
+  { slug: 'habit-tracker', name: 'Habit Tracker', description: 'Track daily habits and build streaks', category: 'Productivity', icon: '✅' },
+  { slug: 'pomodoro-timer', name: 'Pomodoro Timer', description: 'Focus timer with work/break intervals', category: 'Productivity', icon: '🍅' },
+  { slug: 'reading-speed-test', name: 'Reading Speed Test', description: 'Measure your reading speed in WPM', category: 'Productivity', icon: '📖' },
+  { slug: 'screen-time-analyzer', name: 'Screen Time Analyzer', description: 'Analyze and optimize screen time', category: 'Productivity', icon: '📱' },
+  { slug: 'life-expectancy-calculator', name: 'Life Expectancy Calculator', description: 'Estimate life expectancy from lifestyle factors', category: 'Wellness', icon: '🧬' },
+  { slug: 'stress-level-test', name: 'Stress Level Test', description: 'Assess your current stress level', category: 'Wellness', icon: '🧘' },
+  { slug: 'personality-type-quiz', name: 'Personality Type Quiz', description: 'Discover your personality type', category: 'Lifestyle', icon: '🧠' },
+  { slug: 'love-language-quiz', name: 'Love Language Quiz', description: 'Find your primary love language', category: 'Lifestyle', icon: '💝' },
+  { slug: 'carbon-footprint-calculator', name: 'Carbon Footprint Calculator', description: 'Estimate your annual carbon footprint', category: 'Lifestyle', icon: '🌱' },
+  { slug: 'dog-age-calculator', name: 'Dog Age Calculator', description: 'Convert dog years to human years accurately', category: 'Lifestyle', icon: '🐕' },
+  { slug: 'numerology-calculator', name: 'Numerology Calculator', description: 'Calculate your life path number', category: 'Lifestyle', icon: '🔢' },
+  { slug: 'gratitude-journal', name: 'Gratitude Journal', description: 'Daily gratitude journaling tool', category: 'Wellness', icon: '📝' },
+  { slug: 'unit-converter', name: 'Unit Converter', description: 'Convert length, weight, temperature, and more', category: 'Utility', icon: '🔄' },
+  { slug: 'password-generator', name: 'Password Generator', description: 'Generate strong secure passwords', category: 'Utility', icon: '🔐' },
+  { slug: 'color-palette-generator', name: 'Color Palette Generator', description: 'Generate beautiful color palettes', category: 'Utility', icon: '🎨' },
+  { slug: 'word-counter', name: 'Word Counter', description: 'Count words, characters, and reading time', category: 'Utility', icon: '📝' },
+]
+
+export const categories = [...new Set(tools.map(t => t.category))]
