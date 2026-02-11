@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { Card } from '../components/Card'
 import { Button } from '../components/Button'
-import { Select, Label, Checkbox } from '../components/FormElements'
+import { Select, Label } from '../components/FormElements'
 const meals:{[k:string]:{breakfast:string[];lunch:string[];dinner:string[];snack:string[]}} = {
   balanced:{breakfast:['Greek yogurt with berries and granola','Avocado toast with poached eggs','Overnight oats with banana','Smoothie bowl with mixed fruits','Whole grain pancakes with maple syrup','Scrambled eggs with spinach','Chia pudding with mango'],lunch:['Grilled chicken Caesar salad','Quinoa bowl with roasted vegetables','Turkey and avocado wrap','Lentil soup with crusty bread','Mediterranean bowl with falafel','Tuna poke bowl','Caprese sandwich with pesto'],dinner:['Baked salmon with asparagus','Chicken stir-fry with brown rice','Pasta primavera with garlic bread','Grilled steak with sweet potato','Shrimp tacos with slaw','Vegetable curry with naan','Herb-roasted chicken with vegetables'],snack:['Apple with almond butter','Trail mix','Hummus with veggies','Protein bar','Mixed nuts','Cheese and crackers','Dark chocolate']},
   vegetarian:{breakfast:['Tofu scramble with peppers','Banana pancakes','Acai bowl','Avocado toast with tomato','Berry smoothie','Granola with almond milk','French toast with berries'],lunch:['Black bean burrito bowl','Caprese salad','Veggie stir-fry','Mushroom soup','Falafel plate','Grilled cheese with tomato soup','Buddha bowl'],dinner:['Eggplant parmesan','Veggie pad thai','Mushroom risotto','Bean chili','Stuffed peppers','Vegetable lasagna','Chickpea curry'],snack:['Edamame','Fruit salad','Hummus plate','Granola bar','Roasted chickpeas','Guacamole with chips','Smoothie']},

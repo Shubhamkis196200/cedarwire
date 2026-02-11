@@ -1,0 +1,11 @@
+{
+  "repo": {
+    "provider": "github",
+    "repo": "Shubhamkis196200/cedarwire",
+    "branch": "main"
+  },
+  "build_settings": {
+    "cmd": "npm install && npm run build",
+    "dir": "dist"
+  }
+}

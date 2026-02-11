@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { Card } from '../components/Card'
 import { Button } from '../components/Button'
-import { Input, Label } from '../components/FormElements'
+import { Input } from '../components/FormElements'
 type Item = {id:number;name:string;value:number}
 export function NetWorthTracker() {
   const [assets, setAssets] = useState<Item[]>([]); const [liabilities, setLiabilities] = useState<Item[]>([])

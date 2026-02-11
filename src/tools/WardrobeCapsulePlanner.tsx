@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { Card } from '../components/Card'
-import { Button } from '../components/Button'
-import { Select, Label, Checkbox } from '../components/FormElements'
+import { } from '../components/Button'
+import { Select, Label } from '../components/FormElements'
 const capsules:{[k:string]:{tops:string[];bottoms:string[];outerwear:string[];shoes:string[];accessories:string[]}} = {
   minimal:{tops:['White tee','Black tee','Striped Breton top','Chambray shirt','White button-down','Cream knit sweater'],bottoms:['Dark straight jeans','Black trousers','Khaki chinos','Navy shorts'],outerwear:['Black blazer','Denim jacket','Trench coat'],shoes:['White sneakers','Black loafers','Ankle boots'],accessories:['Leather belt','Canvas tote','Simple watch']},
   professional:{tops:['White dress shirt','Light blue dress shirt','Cream silk blouse','Black turtleneck','Gray cashmere sweater','Navy polo'],bottoms:['Charcoal wool trousers','Navy dress pants','Black pencil skirt','Dark wash jeans'],outerwear:['Navy blazer','Camel overcoat','Cardigan'],shoes:['Oxford shoes','Heeled boots','Clean sneakers'],accessories:['Leather briefcase','Silk scarf','Quality watch']},

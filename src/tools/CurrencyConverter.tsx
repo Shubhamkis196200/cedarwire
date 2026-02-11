@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { Card } from '../components/Card'
-import { Button } from '../components/Button'
+import { } from '../components/Button'
 import { Input, Label, Select } from '../components/FormElements'
 const rates:{[k:string]:number} = {USD:1,EUR:0.92,GBP:0.79,JPY:149.5,CAD:1.36,AUD:1.53,CHF:0.88,CNY:7.24,INR:83.1,MXN:17.1,BRL:4.97,KRW:1320}
 export function CurrencyConverter() {

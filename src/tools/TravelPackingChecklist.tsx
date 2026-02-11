@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { Card } from '../components/Card'
 import { Button } from '../components/Button'
-import { Select, Label, Input } from '../components/FormElements'
+import { Label, Input } from '../components/FormElements'
 const lists:{[k:string]:string[]} = {
   essentials:['Passport/ID','Phone charger','Medications','Wallet','Travel insurance docs','Copies of reservations'],
   clothing:['Underwear','Socks','T-shirts','Pants/shorts','Sleepwear','Comfortable shoes'],
@@ -23,7 +23,7 @@ export function TravelPackingChecklist() {
         <div><Label>Trip Duration (days)</Label><Input type="number" value={days} onChange={e=>setDays(e.target.value)}/></div>
         <div><Label>Trip Type</Label><div className="flex flex-wrap gap-2 mt-1">{Object.keys(lists).map(t=><Button key={t} size="sm" variant={types.includes(t)?'primary':'outline'} onClick={()=>toggleType(t)} className="capitalize">{t}</Button>)}</div></div>
       </div>
-      <Card><div className="flex justify-between items-center mb-4"><span className="font-semibold">{checked.size}/{allItems.length} packed</span><div className="w-48 bg-gray-200 rounded-full h-2"><div className="bg-accent h-2 rounded-full transition-all" style={{width:`${allItems.length?checked.size/allItems.length*100:0}%`}}/></div></Card>
+      <Card><div className="flex justify-between items-center mb-4"><span className="font-semibold">{checked.size}/{allItems.length} packed</span><div className="w-48 bg-gray-200 rounded-full h-2"><div className="bg-accent h-2 rounded-full transition-all" style={{width:`${allItems.length?checked.size/allItems.length*100:0}%`}}/></div></div></Card>
       <div className="grid md:grid-cols-2 gap-4">
         {types.map(t=>(
           <Card key={t}><div className="font-semibold capitalize mb-3">{t}</div>
